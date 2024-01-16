@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684850583982' stop='1684850594080'>
+    <name>Abrir a aplicação</name>
+    <title>Abrir a aplicação</title>
+    <test-cases>
+        <test-case start='1684850583984' status='failed' stop='1684850592032'>
+            <name>Abrir a Aplicação</name>
+            <title>Abrir a Aplicação</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850591004' status='failed' stop='1684850592032'>
+                    <name>Then vejo a seguinte mensagem "Informe o usuário" </name>
+                    <title>Then vejo a seguinte mensagem "Informe o usuário" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850591004' status='failed' stop='1684850592032'>
+                            <name>openAppPage: validacao "Informe o usuário"</name>
+                            <title>openAppPage: validacao "Informe o usuário"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850591004' status='failed' stop='1684850592030'>
+                                    <name>I see "Informe o usuário"</name>
+                                    <title>I see "Informe o usuário"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I see "Informe o usuário"' source='3128bb44-84a9-4c4d-8327-93b956c87ff6-attachment.png' type='image/png' size='317976'/>
+                <attachment title='Last Seen Screenshot' source='9fddaeb6-1f3a-41cb-9993-4d3100b2d7a4-attachment.png' type='image/png' size='317972'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

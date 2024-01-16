@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684851907665' stop='1684851918328'>
+    <name>Abrir a aplicação</name>
+    <title>Abrir a aplicação</title>
+    <test-cases>
+        <test-case start='1684851907667' status='passed' stop='1684851917994'>
+            <name>Abrir a Aplicação</name>
+            <title>Abrir a Aplicação</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684851914315' status='passed' stop='1684851916859'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684851914315' status='passed' stop='1684851916859'>
+                            <name>openAppPage: openApp </name>
+                            <title>openAppPage: openApp </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684851914315' status='passed' stop='1684851916858'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I wait 2' source='a828c59d-f574-47a4-bdf0-703aa27243be-attachment.png' type='image/png' size='313952'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684851916859' status='passed' stop='1684851917994'>
+                    <name>Then vejo a seguinte mensagem "Informe o usuário" </name>
+                    <title>Then vejo a seguinte mensagem "Informe o usuário" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684851916859' status='passed' stop='1684851917994'>
+                            <name>openAppPage: validacao "Informe o usuário"</name>
+                            <title>openAppPage: validacao "Informe o usuário"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684851916859' status='passed' stop='1684851917994'>
+                                    <name>I see "Informe o usuário"</name>
+                                    <title>I see "Informe o usuário"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "Informe o usuário"' source='64438dc3-a107-40e3-8460-709f7a69a583-attachment.png' type='image/png' size='313952'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

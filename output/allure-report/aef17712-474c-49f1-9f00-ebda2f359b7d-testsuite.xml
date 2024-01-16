@@ -1,0 +1,415 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684850646465' stop='1684850708360'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1684850646466' status='passed' stop='1684850661878'>
+            <name>TC01 - Login - Dados em Branco</name>
+            <title>TC01 - Login - Dados em Branco</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850652265' status='passed' stop='1684850654656'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850652265' status='passed' stop='1684850654656'>
+                            <name>openAppPage: openApp </name>
+                            <title>openAppPage: openApp </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850652265' status='passed' stop='1684850654656'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I wait 2' source='7b08e971-b833-4496-889f-2f919c8d2335-attachment.png' type='image/png' size='329083'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850654656' status='passed' stop='1684850661349'>
+                    <name>When informo o usuário "" e senha " " </name>
+                    <title>When informo o usuário "" e senha " " </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850654656' status='passed' stop='1684850661349'>
+                            <name>loginPage: logar , " "</name>
+                            <title>loginPage: logar , " "</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850654656' status='passed' stop='1684850656378'>
+                                    <name>I fill field "Informe o usuário", </name>
+                                    <title>I fill field "Informe o usuário", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "Informe o usuário", ' source='a4d2c692-0d3b-4cdb-824f-f94f4e9d53a9-attachment.png' type='image/png' size='314562'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850656378' status='passed' stop='1684850658147'>
+                                    <name>I fill field "Informe a senha", " "</name>
+                                    <title>I fill field "Informe a senha", " "</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "Informe a senha", " "' source='5f3ee272-a5c4-49d1-9c46-ecb27fdd8c83-attachment.png' type='image/png' size='309447'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850658147' status='passed' stop='1684850658962'>
+                                    <name>I tap "AUTENTICAR"</name>
+                                    <title>I tap "AUTENTICAR"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I tap "AUTENTICAR"' source='9691fed7-230c-4836-aba1-c2e08bc42098-attachment.png' type='image/png' size='310088'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850658963' status='passed' stop='1684850661349'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I wait 2' source='c4b11bae-e4ad-448c-9515-cb6ba10e7fb9-attachment.png' type='image/png' size='331917'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850661349' status='passed' stop='1684850661878'>
+                    <name>Then vejo a seguinte mensagem "Usuário ou Senha inválida!" </name>
+                    <title>Then vejo a seguinte mensagem "Usuário ou Senha inválida!" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850661349' status='passed' stop='1684850661878'>
+                            <name>openAppPage: validacao "Usuário ou Senha inválida!"</name>
+                            <title>openAppPage: validacao "Usuário ou Senha inválida!"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850661349' status='passed' stop='1684850661877'>
+                                    <name>I see "Usuário ou Senha inválida!"</name>
+                                    <title>I see "Usuário ou Senha inválida!"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "Usuário ou Senha inválida!"' source='aff0af7f-f179-48e5-91fa-7a83a377bd38-attachment.png' type='image/png' size='331917'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850662224' status='passed' stop='1684850677242'>
+            <name>TC02 - Login - Preenchendo somente usuário</name>
+            <title>TC02 - Login - Preenchendo somente usuário</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850667900' status='passed' stop='1684850670264'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850667900' status='passed' stop='1684850670264'>
+                            <name>openAppPage: openApp </name>
+                            <title>openAppPage: openApp </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850667900' status='passed' stop='1684850670264'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I wait 2' source='e87f3cd5-0461-4cad-a389-a0be1b8bb8a5-attachment.png' type='image/png' size='328371'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850670264' status='passed' stop='1684850676713'>
+                    <name>When informo o usuário "ale" e senha "" </name>
+                    <title>When informo o usuário "ale" e senha "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850670264' status='passed' stop='1684850676713'>
+                            <name>loginPage: logar "ale", </name>
+                            <title>loginPage: logar "ale", </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850670264' status='passed' stop='1684850672035'>
+                                    <name>I fill field "Informe o usuário", "ale"</name>
+                                    <title>I fill field "Informe o usuário", "ale"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "Informe o usuário", "ale"' source='ef777cc0-59de-4fa5-8ead-f259bf3016ea-attachment.png' type='image/png' size='311243'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850672035' status='passed' stop='1684850673672'>
+                                    <name>I fill field "Informe a senha", </name>
+                                    <title>I fill field "Informe a senha", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "Informe a senha", ' source='ce287b84-707e-4b97-88e0-003421a52db6-attachment.png' type='image/png' size='311243'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850673672' status='passed' stop='1684850674359'>
+                                    <name>I tap "AUTENTICAR"</name>
+                                    <title>I tap "AUTENTICAR"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I tap "AUTENTICAR"' source='62dda7e4-3b46-4add-a52c-f00394fbbe88-attachment.png' type='image/png' size='312506'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850674359' status='passed' stop='1684850676712'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I wait 2' source='0301f4fe-1e92-4e53-8064-50dc1028a6bd-attachment.png' type='image/png' size='331917'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850676713' status='passed' stop='1684850677242'>
+                    <name>Then vejo a seguinte mensagem "Usuário ou Senha inválida!" </name>
+                    <title>Then vejo a seguinte mensagem "Usuário ou Senha inválida!" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850676713' status='passed' stop='1684850677242'>
+                            <name>openAppPage: validacao "Usuário ou Senha inválida!"</name>
+                            <title>openAppPage: validacao "Usuário ou Senha inválida!"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850676713' status='passed' stop='1684850677242'>
+                                    <name>I see "Usuário ou Senha inválida!"</name>
+                                    <title>I see "Usuário ou Senha inválida!"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "Usuário ou Senha inválida!"' source='baa5a57e-60b3-43f0-b738-680fdccf9e00-attachment.png' type='image/png' size='331917'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850677543' status='passed' stop='1684850692701'>
+            <name>TC03 - Login - Preenchendo somente a senha</name>
+            <title>TC03 - Login - Preenchendo somente a senha</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850683259' status='passed' stop='1684850685628'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850683259' status='passed' stop='1684850685628'>
+                            <name>openAppPage: openApp </name>
+                            <title>openAppPage: openApp </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850683259' status='passed' stop='1684850685628'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I wait 2' source='01ee9d8f-6515-4320-9a32-4e06fde964b5-attachment.png' type='image/png' size='328212'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850685628' status='passed' stop='1684850692160'>
+                    <name>When informo o usuário "" e senha "12345678" </name>
+                    <title>When informo o usuário "" e senha "12345678" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850685628' status='passed' stop='1684850692160'>
+                            <name>loginPage: logar , "12345678"</name>
+                            <title>loginPage: logar , "12345678"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850685628' status='passed' stop='1684850687349'>
+                                    <name>I fill field "Informe o usuário", </name>
+                                    <title>I fill field "Informe o usuário", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "Informe o usuário", ' source='7d4eaaef-50c2-4220-bb30-7e5a5a213180-attachment.png' type='image/png' size='314562'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850687349' status='passed' stop='1684850689051'>
+                                    <name>I fill field "Informe a senha", "12345678"</name>
+                                    <title>I fill field "Informe a senha", "12345678"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "Informe a senha", "12345678"' source='555a8910-17bf-4065-b59a-59cba284cbde-attachment.png' type='image/png' size='309477'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850689051' status='passed' stop='1684850689797'>
+                                    <name>I tap "AUTENTICAR"</name>
+                                    <title>I tap "AUTENTICAR"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I tap "AUTENTICAR"' source='221f24d9-2b75-4e10-b24b-d8a2a3f74745-attachment.png' type='image/png' size='310586'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850689797' status='passed' stop='1684850692160'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I wait 2' source='1b313827-83a4-476d-b386-9afc7623952d-attachment.png' type='image/png' size='331917'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850692160' status='passed' stop='1684850692701'>
+                    <name>Then vejo a seguinte mensagem "Usuário ou Senha inválida!" </name>
+                    <title>Then vejo a seguinte mensagem "Usuário ou Senha inválida!" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850692160' status='passed' stop='1684850692701'>
+                            <name>openAppPage: validacao "Usuário ou Senha inválida!"</name>
+                            <title>openAppPage: validacao "Usuário ou Senha inválida!"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850692160' status='passed' stop='1684850692701'>
+                                    <name>I see "Usuário ou Senha inválida!"</name>
+                                    <title>I see "Usuário ou Senha inválida!"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "Usuário ou Senha inválida!"' source='d79bdb62-2e76-4187-8912-5414e913361e-attachment.png' type='image/png' size='331917'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850693001' status='passed' stop='1684850708078'>
+            <name>TC04 - Login - Usuário não cadastrado</name>
+            <title>TC04 - Login - Usuário não cadastrado</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850698688' status='passed' stop='1684850701061'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850698688' status='passed' stop='1684850701061'>
+                            <name>openAppPage: openApp </name>
+                            <title>openAppPage: openApp </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850698688' status='passed' stop='1684850701060'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I wait 2' source='865eca19-040a-4565-822a-2de780063c8f-attachment.png' type='image/png' size='328618'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850701061' status='passed' stop='1684850707550'>
+                    <name>When informo o usuário "ale" e senha "12345678" </name>
+                    <title>When informo o usuário "ale" e senha "12345678" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850701061' status='passed' stop='1684850707550'>
+                            <name>loginPage: logar "ale", "12345678"</name>
+                            <title>loginPage: logar "ale", "12345678"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850701061' status='passed' stop='1684850702852'>
+                                    <name>I fill field "Informe o usuário", "ale"</name>
+                                    <title>I fill field "Informe o usuário", "ale"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "Informe o usuário", "ale"' source='17093e19-46e9-492a-9556-f5c20e968de7-attachment.png' type='image/png' size='311738'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850702852' status='passed' stop='1684850704463'>
+                                    <name>I fill field "Informe a senha", "12345678"</name>
+                                    <title>I fill field "Informe a senha", "12345678"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "Informe a senha", "12345678"' source='d3734b69-f575-41b6-9636-8305326529ae-attachment.png' type='image/png' size='306800'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850704463' status='passed' stop='1684850705197'>
+                                    <name>I tap "AUTENTICAR"</name>
+                                    <title>I tap "AUTENTICAR"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I tap "AUTENTICAR"' source='fc7ae3c9-e598-4832-8479-643890774720-attachment.png' type='image/png' size='307819'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850705197' status='passed' stop='1684850707550'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I wait 2' source='b15289d5-9148-4efd-a786-92049653bc91-attachment.png' type='image/png' size='332191'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850707550' status='passed' stop='1684850708078'>
+                    <name>Then vejo a seguinte mensagem "Usuário ou Senha inválida!" </name>
+                    <title>Then vejo a seguinte mensagem "Usuário ou Senha inválida!" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850707550' status='passed' stop='1684850708078'>
+                            <name>openAppPage: validacao "Usuário ou Senha inválida!"</name>
+                            <title>openAppPage: validacao "Usuário ou Senha inválida!"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850707550' status='passed' stop='1684850708078'>
+                                    <name>I see "Usuário ou Senha inválida!"</name>
+                                    <title>I see "Usuário ou Senha inválida!"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "Usuário ou Senha inválida!"' source='a67dd316-f232-41c2-bf45-5f439fc51b84-attachment.png' type='image/png' size='332191'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

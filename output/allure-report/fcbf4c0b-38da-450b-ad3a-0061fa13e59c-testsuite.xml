@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684850594093' stop='1684850626380'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1684850594094' status='failed' stop='1684850601633'>
+            <name>TC01 - Login - Dados em Branco</name>
+            <title>TC01 - Login - Dados em Branco</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850600778' status='failed' stop='1684850601633'>
+                    <name>When informo o usuário "" e senha " " </name>
+                    <title>When informo o usuário "" e senha " " </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850600778' status='failed' stop='1684850601633'>
+                            <name>loginPage: logar , " "</name>
+                            <title>loginPage: logar , " "</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850600779' status='failed' stop='1684850601633'>
+                                    <name>I fill field "Informe o usuário", </name>
+                                    <title>I fill field "Informe o usuário", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='513cfe3a-63fc-4935-81c2-ad458700a5c3-attachment.png' type='image/png' size='317973'/>
+            </attachments>
+            <failure>
+                <message>Field "android=new UiSelector().text("Informe o usuário")" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "android=new UiSelector().text("Informe o usuário")" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\projeto\codecepttjs-mobile\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\projeto\codecepttjs-mobile\node_modules\codeceptjs\lib\helper\WebDriver.js:2705:11)
+                    at Appium.fillField (C:\projeto\codecepttjs-mobile\node_modules\codeceptjs\lib\helper\WebDriver.js:1025:5)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1684850602555' status='failed' stop='1684850609995'>
+            <name>TC02 - Login - Preenchendo somente usuário</name>
+            <title>TC02 - Login - Preenchendo somente usuário</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850609205' status='failed' stop='1684850609995'>
+                    <name>When informo o usuário "ale" e senha "" </name>
+                    <title>When informo o usuário "ale" e senha "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850609205' status='failed' stop='1684850609995'>
+                            <name>loginPage: logar "ale", </name>
+                            <title>loginPage: logar "ale", </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850609205' status='failed' stop='1684850609995'>
+                                    <name>I fill field "Informe o usuário", "ale"</name>
+                                    <title>I fill field "Informe o usuário", "ale"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='32b7a7f1-cf55-4f32-9539-73fd7ee90a39-attachment.png' type='image/png' size='317997'/>
+            </attachments>
+            <failure>
+                <message>Field "android=new UiSelector().text("Informe o usuário")" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "android=new UiSelector().text("Informe o usuário")" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\projeto\codecepttjs-mobile\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\projeto\codecepttjs-mobile\node_modules\codeceptjs\lib\helper\WebDriver.js:2705:11)
+                    at Appium.fillField (C:\projeto\codecepttjs-mobile\node_modules\codeceptjs\lib\helper\WebDriver.js:1025:5)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1684850610735' status='failed' stop='1684850618037'>
+            <name>TC03 - Login - Preenchendo somente a senha</name>
+            <title>TC03 - Login - Preenchendo somente a senha</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850617076' status='failed' stop='1684850618037'>
+                    <name>When informo o usuário "" e senha "12345678" </name>
+                    <title>When informo o usuário "" e senha "12345678" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850617076' status='failed' stop='1684850618037'>
+                            <name>loginPage: logar , "12345678"</name>
+                            <title>loginPage: logar , "12345678"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850617076' status='failed' stop='1684850618037'>
+                                    <name>I fill field "Informe o usuário", </name>
+                                    <title>I fill field "Informe o usuário", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='d801be79-2df9-4c6a-9147-fb460a7edfe4-attachment.png' type='image/png' size='317928'/>
+            </attachments>
+            <failure>
+                <message>Field "android=new UiSelector().text("Informe o usuário")" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "android=new UiSelector().text("Informe o usuário")" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\projeto\codecepttjs-mobile\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\projeto\codecepttjs-mobile\node_modules\codeceptjs\lib\helper\WebDriver.js:2705:11)
+                    at Appium.fillField (C:\projeto\codecepttjs-mobile\node_modules\codeceptjs\lib\helper\WebDriver.js:1025:5)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1684850618826' status='failed' stop='1684850625625'>
+            <name>TC04 - Login - Usuário não cadastrado</name>
+            <title>TC04 - Login - Usuário não cadastrado</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850624823' status='failed' stop='1684850625624'>
+                    <name>When informo o usuário "ale" e senha "12345678" </name>
+                    <title>When informo o usuário "ale" e senha "12345678" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850624823' status='failed' stop='1684850625624'>
+                            <name>loginPage: logar "ale", "12345678"</name>
+                            <title>loginPage: logar "ale", "12345678"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850624823' status='failed' stop='1684850625624'>
+                                    <name>I fill field "Informe o usuário", "ale"</name>
+                                    <title>I fill field "Informe o usuário", "ale"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='cca92baa-ff7d-4113-a7f8-2f03d3f0ed7b-attachment.png' type='image/png' size='317951'/>
+            </attachments>
+            <failure>
+                <message>Field "android=new UiSelector().text("Informe o usuário")" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "android=new UiSelector().text("Informe o usuário")" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\projeto\codecepttjs-mobile\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\projeto\codecepttjs-mobile\node_modules\codeceptjs\lib\helper\WebDriver.js:2705:11)
+                    at Appium.fillField (C:\projeto\codecepttjs-mobile\node_modules\codeceptjs\lib\helper\WebDriver.js:1025:5)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

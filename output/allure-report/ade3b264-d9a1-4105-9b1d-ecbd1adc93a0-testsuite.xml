@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684850457035' stop='1684850467834'>
+    <name>Abrir a aplicação</name>
+    <title>Abrir a aplicação</title>
+    <test-cases>
+        <test-case start='1684850457038' status='passed' stop='1684850467455'>
+            <name>Abrir a Aplicação</name>
+            <title>Abrir a Aplicação</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850464159' status='passed' stop='1684850467455'>
+                    <name>Then vejo a seguinte mensagem "Informe o usuário" </name>
+                    <title>Then vejo a seguinte mensagem "Informe o usuário" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850464159' status='passed' stop='1684850467455'>
+                            <name>openAppPage: validacao "Informe o usuário"</name>
+                            <title>openAppPage: validacao "Informe o usuário"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850464159' status='passed' stop='1684850466588'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I wait 2' source='2699dad4-16b4-468d-91f9-ffb00d18f524-attachment.png' type='image/png' size='328090'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850466589' status='passed' stop='1684850467455'>
+                                    <name>I see "Informe o usuário"</name>
+                                    <title>I see "Informe o usuário"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "Informe o usuário"' source='9168b218-ad3b-4d57-8022-a8f681b2283c-attachment.png' type='image/png' size='314173'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
